@@ -95,7 +95,7 @@ function parse(line) {
                         labelInfo.innerText = "";
                     }
                     if (labelInfo.tagName == "link") {
-                        labelInfo.tagName == "span";
+                        labelInfo.tagName = "span";
                     }
                     parsedLine += "<" + labelInfo.tagName + " " + labelInfo.attributesLine + ">" + labelInfo.innerText + "</" + labelInfo.tagName + ">";
             } else {
