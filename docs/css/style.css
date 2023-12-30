@@ -109,6 +109,10 @@
     white-space: pre-wrap;
 }
 
+.modal.opened .article-content pre.line .openfile-link {
+    color: #3442e4;
+}
+
 body.modal-opened {
     overflow: hidden;
 }

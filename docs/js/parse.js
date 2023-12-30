@@ -85,7 +85,7 @@ function parse(line) {
                                 labelInfo.attributesLine += "style=\"" + styleValue + "\"";
                             }
                             if (labelInfo.tagName == "link") {
-                                labelInfo.attributesLine += " onclick=\"openFile('" + labelInfo.attributes.url + "')\"";
+                                labelInfo.attributesLine += " class=\"openfile-link\" onclick=\"openFile('" + labelInfo.attributes.url + "')\"";
                             }
                         }
                     }
